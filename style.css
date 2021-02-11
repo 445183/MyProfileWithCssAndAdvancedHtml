@@ -1,0 +1,60 @@
+title {
+    color:blueviolet
+}
+h1 {
+    color:red
+}
+h2 {
+    color:greenyellow
+}
+h3{
+    color:yellow
+}
+p {
+    color:cyan
+}
+* {
+    border:solid;
+}
+.container {
+    background-color:lawngreen;
+    font-family: fantasy;
+    text-align: center;
+   
+}
+.container1 {
+    background-color:white;
+}
+
+.game {
+    background-color:black;
+    font-family: monospace;
+    text-align: center;  
+}
+
+.name{
+    background-color: black;
+    font-family:cursive;
+    text-align: center;
+}
+
+.section{
+  background: crimson;
+  text-transform:inherit;
+  font-family:monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+.containerforgames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction:column;
+}
+
+.game img{
+    width:300px;
+    height:300px;
+}
